@@ -30,10 +30,15 @@ function Formulario(props){
         setData({...Data, Message: event.target.value})
     }
     
+    function confirmacionEnvio(){
+        alert('Su Formulario fue enviado con exito!')
+    }
+    
     function handleSend(event){
         event.preventDefault()
         axios.post("http://127.0.0.1:8000/api/guardar-formulario",Data).then(response=>{
             console.log(response)
+            confirmacionEnvio()
             setData({Name:'', Email:'', Phone:'', Message:''})
             
 
