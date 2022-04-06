@@ -19,7 +19,7 @@ function Secc3(props){
                         </div>
                         <div className="carousel-item">
                             <article>                
-                                <p className="parrafo_titulo">Sed ut perspiciatis</p>               
+                                <p className="parrafo_titulo">Otro Sed ut perspiciatis</p>               
                                 <h2 className="titulo_3">Nemo Enim</h2>               
                                 <p className="parrafo_3">Sed ut perspiciatis unde omnis iste natus error sit 
                                 voluptatem accusantium doloremque laudantiumbr,               

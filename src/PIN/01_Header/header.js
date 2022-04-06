@@ -6,9 +6,9 @@ import './header.scss';
 function Header(props){
 
     return(
-        <header className= "Header-Container">
+        <header className= "Header-Container"> 
           <Carousel/>
-          <NavBar/>                                       
+          <NavBar/>  
         </header>
     )
 }

@@ -1,5 +1,5 @@
-@import "../../Styles/Sass/02-Base/Color.scss";
-@import "../../Styles/Sass/01-Utilitles/mixins.scss";
+@import "../../Styles/Sass/02-base/_color.scss";
+@import "../../Styles/Sass/01-utilitles/_mixins.scss";
 
 /*ARTICULO_1*/
 
@@ -91,4 +91,28 @@
                 width: 100%;
             }
     
+}
+
+@media only screen and (max-width:900px)
+{
+    .titulo_1
+    {
+        width: 100%;
+    }
+        .parrafo_1
+        {
+            width: 100%;
+        }
+            .boton_1{
+                @include width-heigth(140px, 45px);              
+                background: $color-naranja;
+                border-radius: 1.5rem;
+                border: 0px;
+                color: $color-blanco; 
+                &:hover 
+                    {
+                        background: #bf6e39;
+                    }    
+            }
+
 }

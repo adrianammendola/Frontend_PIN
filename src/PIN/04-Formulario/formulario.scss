@@ -1,5 +1,5 @@
-@import "../Styles/Sass/02-Base/color.scss";
-@import "../Styles/Sass/01-Utilitles/mixins.scss";
+@import "../Styles/Sass/02-base/_color.scss";
+@import "../Styles/Sass/01-utilitles/_mixins.scss";
 
 //CONTAINER SECC FORM
 
@@ -43,15 +43,15 @@
 
 @media only screen and (max-width:767px)
 {
-    .container_5
-    {
-        align-items: center;
+    .container_5{
+        justify-content: start;
+        padding-left: 7%;
     }
         .container_form
         {
-            background: transparent url('../public/img/globos.png') 0% 0% no-repeat padding-box;
-            background-size: cover;
-            width: 80%;
+            //background-size: cover;
+            width: 40%;
+            
         } 
             .img_5
             {

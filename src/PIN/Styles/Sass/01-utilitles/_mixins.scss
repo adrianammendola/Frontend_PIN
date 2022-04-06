@@ -1,5 +1,5 @@
 @import "./variables";
-@import "../02-base/color";
+@import "../02-base/_color.scss";
 
 @mixin width-heigth ($width:100%, $height:100vh) 
 {

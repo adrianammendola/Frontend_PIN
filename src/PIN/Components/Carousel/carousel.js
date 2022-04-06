@@ -28,7 +28,7 @@ function Carousel(props){
                         <article className="container_art_1">
                             <h2 className="titulo_1">Sed ut perspiciatis unde omnis iste natus</h2>
                             <section className="parrafo_1">
-                                <p>Sed ut perspiciatis unde omnis iste natus error
+                                <p>Otro asaid Sed ut perspiciatis unde omnis iste natus error
                                 sit voluptatem accusantium doloremque.</p> 
                             </section> 
                             <button className="boton_1">Read more</button>                            
