@@ -31,7 +31,9 @@ function Formulario(props){
     }
     
     function confirmacionEnvio(){
-        alert('Su Formulario fue enviado con exito!')
+        <div class="alert alert-success" role="alert">
+            This is a success alert—check it out!
+        </div>
     }
     
     function handleSend(event){
